@@ -181,3 +181,11 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+
+# Unreal Engine4
+Intermediate/
+Content/StartContent
+Binaries/
+Saved/
+DerivedDataCache/
