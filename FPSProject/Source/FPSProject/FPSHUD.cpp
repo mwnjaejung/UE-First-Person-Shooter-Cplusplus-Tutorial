@@ -9,6 +9,7 @@ AFPSHUD::AFPSHUD(const class FPostConstructInitializeProperties& PCIP)
 {
 	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(
 		TEXT("Texture2D'/Game/Texture/crosshair.crosshair'"));
+		//TEXT("Texture2D'/Game/Texture/crosshair2.crosshair2'"));
 	CrosshairTex = CrosshairTexObj.Object;
 }
 
