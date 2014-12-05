@@ -22,8 +22,8 @@ class FPSPROJECT_API AFPSCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		FVector MuzzleOffset;
 
-	UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
-		TSubobjectPtr<class AFPSProjectile> ProjectileClass;
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class AFPSProjectile> ProjectileClass;
 
 		virtual void BeginPlay() override;
 	

@@ -24,4 +24,9 @@ class FPSPROJECT_API AFPSProjectile : public AActor
 
 		void InitVelocity(const FVector &ShootDirection);
 
+		UFUNCTION()
+			void OnHit(class AActor *otherActor, class UPrimitiveComponent *otherComp,
+			FVector normalImpulse, const FHitResult &hit);
+
+
 };
