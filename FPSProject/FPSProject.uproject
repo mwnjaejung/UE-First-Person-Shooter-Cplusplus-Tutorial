@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1E0766C4-42DE-FAF1-87B1-36B177CF604A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "FPSProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "KinPlugin",
+			"Enabled": false
+		}
+	]
+}
